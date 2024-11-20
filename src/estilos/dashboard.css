@@ -1,0 +1,80 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 0.5px #000;
+    margin: 5px 0;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  table thead tr th {background-color: #fff; color: #000;}
+  tr:nth-child(odd) { background-color: #cccc;}
+  tr:nth-child(odd) { background-color: #000; color: #fff;}
+
+  .btn-accion {
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    height: 30px;
+  }
+
+  .btn-accion:hover {
+    cursor: pointer;
+  }
+
+  .btn-accion.edita {
+    background-color: rgb(103, 128, 229);
+  }
+
+  .btn-accion.borra {
+    background-color: red;
+  }
+
+
+  .cont-status{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cont-status button {
+    margin: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    height: 150px;
+    width: 150px;
+  }
+
+  #activo{
+    background-color: green;
+  }
+
+  #activo:hover {
+    background-color: rgb(0, 167, 0);
+  }
+
+  #inactivo {
+    background-color: red;
+  }
+
+  #inactivo:hover {
+    background-color: rgb(173, 25, 25);
+  }
+
+  #revocado {
+    background-color: rgb(116, 116, 116);
+  }
+
+  #revocado:hover {
+    background-color: rgb(204, 204, 204);
+  }
+
+  .cont-querys input {
+    width: 200px;
+  }
